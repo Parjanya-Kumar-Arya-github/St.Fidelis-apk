@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">St. Fidelis</string>
+    <string name="about_me"><u>About me</u></string>
+    <string name="clock_gallery"><u>Clock Gallery</u></string>
+    <string name="html"><b>HTML/CSS/JS</b></string>
+    <string name="about_me_text"><u>I am Parjanya Kumar Arya of Class 10th, member of the Fidelian Family (St. Fidelis) and presenting this app to you.</u></string>
+</resources>

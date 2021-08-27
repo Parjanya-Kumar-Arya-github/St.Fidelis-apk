@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spaceclock">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spaceclock_wall" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/extraspace" />
+
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="0dp"
+        android:layout_height="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitXY"
+        android:gravity="bottom|center_horizontal"
+        app:srcCompat="@drawable/spaceclock" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="79dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="@+id/clock"
+        app:layout_constraintEnd_toEndOf="@+id/clock"
+        app:layout_constraintStart_toStartOf="@+id/clock"
+        app:layout_constraintTop_toTopOf="@+id/clock"
+        app:layout_constraintVertical_bias="0.565"
+        app:srcCompat="@drawable/spaceclock_center" />
+
+
+    <ImageView
+        android:id="@+id/spaceclock_hour"
+        android:layout_width="51dp"
+        android:layout_height="76dp"
+
+        android:layout_marginLeft="6dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/screw"
+        app:layout_constraintEnd_toEndOf="@+id/screw"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/screw"
+        app:layout_constraintTop_toTopOf="@+id/screw"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/spaceclock_hour2" />
+
+    <ImageView
+        android:id="@+id/spaceclock_minute"
+        android:layout_width="64dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="2dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/spaceclock_hour"
+        app:layout_constraintEnd_toEndOf="@+id/screw"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="@+id/screw"
+        app:layout_constraintTop_toTopOf="@+id/screw"
+        app:layout_constraintVertical_bias="0.807"
+        app:srcCompat="@drawable/spaceclock_minute2" />
+
+    <ImageView
+        android:id="@+id/spaceclock_second"
+        android:layout_width="41dp"
+        android:layout_height="134dp"
+        android:src="@drawable/spaceclock_second"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/screw"
+        app:layout_constraintEnd_toEndOf="@+id/screw"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/screw"
+        app:layout_constraintTop_toTopOf="@+id/spaceclock_minute"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/screw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:srcCompat="@drawable/spaceclock_screw" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="0dp"
+        android:layout_height="339dp"
+        app:layout_constraintBottom_toTopOf="@+id/spaceclock_minute"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/explore" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

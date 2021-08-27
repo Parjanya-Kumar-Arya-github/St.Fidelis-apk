@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/amatic_sc_bold</item>
+        <item>@font/henny_penny</item>
+        <item>@font/orbitron</item>
+        <item>@font/orbitron_black</item>
+        <item>@font/orbitron_bold</item>
+        <item>@font/orbitron_medium</item>
+        <item>@font/racing_sans_one</item>
+        <item>@font/rammetto_one</item>
+        <item>@font/ribeye_marrow</item>
+        <item>@font/roboto_black</item>
+        <item>@font/roboto_condensed_bold</item>
+        <item>@font/roboto_light</item>
+        <item>@font/roboto_thin</item>
+    </array>
+</resources>
